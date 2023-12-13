@@ -1,4 +1,4 @@
-//Autor: Marcos Sarmiento Pellitero
+///Autor: Marcos Sarmiento Pellitero
 //Fecha de creación: 26 de octubre de 2023
 
 //Descripción: En este código se va a tratar de realizar un programa que permita introducir una distribución 

@@ -1,9 +1,9 @@
 
-output: main.o
-	g++ main.o -o output
+executable: main.o
+	g++ main.o -o executable
 
 main.o: main.cpp
 	g++ -c main.cpp
 
 clean:
-	rm *.o output
+	rm *.o executable
