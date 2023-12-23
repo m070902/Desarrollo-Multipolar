@@ -1,9 +1,12 @@
 
-executable: main.o
-	g++ main.o -o executable
+final.exe: main.o
+	g++ main.o -g -o final.exe
 
 main.o: main.cpp
-	g++ -c main.cpp
+	g++ -c -g main.cpp
 
 clean:
-	rm *.o executable
+	rm *.o final.exe
+
+debug:
+	gdb ./final.exe
